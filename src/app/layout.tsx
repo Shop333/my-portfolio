@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   // 1. Basic Metadata
   title: "Moh Ahlul Firdaus | Junior Full Stack Developer",
   description: "Portfolio of Moh Ahlul Firdaus, a Junior Full Stack Developer specializing in Frontend, React, and Mobile Development.",
-  metadataBase: new URL("https://ps5-aj83.vercel.app"),
+  metadataBase: new URL("https://my-portfolio-khaki-beta-3t8b3jy9v8.vercel.app"),
   
   // 2. SEO Keywords (Biar gampang dicari di Google)
   keywords: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Moh Ahlul Firdaus | Portfolio OS",
     description: "Junior Full Stack Developer Portfolio - Specialized in Frontend",
-    url: "https://ps5-aj83.vercel.app",
+    url: "https://my-portfolio-khaki-beta-3t8b3jy9v8.vercel.app",
     siteName: "Ahlul Firdaus Portfolio",
     images: [
       {
