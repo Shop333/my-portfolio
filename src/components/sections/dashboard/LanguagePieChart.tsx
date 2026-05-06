@@ -20,7 +20,6 @@ export default function LanguagePieChart() {
           Authorization: `token ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
         };
 
-        // 1. Ambil daftar repo
         const repoRes = await fetch("https://api.github.com/users/Shop333/repos?per_page=50&sort=updated", { headers });
         const repos = await repoRes.json();
         
@@ -36,14 +35,12 @@ export default function LanguagePieChart() {
           Python: "#3572A5",
           React: "#61dafb",
           Nextjs: "#ffffff",
-          Kotlin: "#7F52FF", // Tambahkan Kotlin karena kamu tertarik
+          Kotlin: "#7F52FF",
           Java: "#b07219"
         };
 
-        // Ambil 10 repo terbaru saja biar fetching gak terlalu lama
         const topRepos = repos.slice(0, 10);
         
-        // 2. Ambil detail bahasa dari tiap repo secara paralel
         await Promise.all(topRepos.map(async (repo: any) => {
           const res = await fetch(repo.languages_url, { headers });
           const langs = await res.json();
@@ -52,14 +49,13 @@ export default function LanguagePieChart() {
           });
         }));
 
-        // 3. Format data untuk PieChart
         const formattedData = Object.keys(langCounts).map((name) => ({
           name,
           value: langCounts[name],
           color: colorMap[name] || "#71717a"
         }))
-        .sort((a, b) => b.value - a.value) // Urutkan dari yang terbanyak
-        .slice(0, 5); // Ambil Top 5 saja agar tidak terlalu ramai
+        .sort((a, b) => b.value - a.value)
+        .slice(0, 5);
 
         setData(formattedData);
         setLoading(false);
@@ -102,7 +98,6 @@ export default function LanguagePieChart() {
       </div>
 
       <div className="h-[300px] w-full relative">
-        {/* Dekorasi Center (Glassmorphism Donut) */}
         <div className="absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-center pointer-events-none z-10">
           <p className="text-[8px] font-mono text-zinc-600 uppercase tracking-[0.3em]">Total</p>
           <p className="text-[14px] font-mono text-white font-black tracking-tighter">DATA</p>
@@ -129,20 +124,23 @@ export default function LanguagePieChart() {
                   fill={entry.color} 
                   className="hover:opacity-100 opacity-80 transition-all duration-300 cursor-pointer outline-none"
                   stroke={entry.color}
-                  strokeWidth={index === 0 ? 2 : 0} // Kasih highlight dikit buat bahasa utama
+                  strokeWidth={index === 0 ? 2 : 0}
                 />
               ))}
             </Pie>
             <Tooltip 
               content={({ active, payload }) => {
                 if (active && payload && payload.length) {
+                  // Tambahkan pengecekan angka di sini agar TypeScript aman saat Build
+                  const value = typeof payload[0].value === 'number' ? payload[0].value : 0;
+                  
                   return (
                     <div className="bg-zinc-950/90 backdrop-blur-md border border-white/10 p-3 rounded-xl shadow-2xl">
                       <p className="text-[9px] font-mono text-zinc-500 uppercase mb-1 tracking-widest">
                         {payload[0].name}
                       </p>
                       <p className="text-xs font-bold text-white uppercase">
-                        {Math.round(payload[0].value / 1000)} KB written
+                        {Math.round(value / 1000)} KB written
                       </p>
                     </div>
                   );
