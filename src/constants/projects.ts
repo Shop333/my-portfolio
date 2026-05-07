@@ -18,7 +18,7 @@ export const PROJECTS: Project[] = [
     link: "https://my-portfolio-khaki-beta-3t8b3jy9v8.vercel.app/", // Pakai link baru kamu nanti
     github: "https://github.com/Shop333/my-portfolioo",
     featured: true,
-    image: "/projects/portofolio.webp" // Sementara pakai OG Image kamu sebagai preview
+    image: "/projects/portofolioo.webp" // Sementara pakai OG Image kamu sebagai preview
   },
   {
     id: 2,
