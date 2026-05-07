@@ -10,15 +10,15 @@ export interface Project {
 }
 
 export const PROJECTS: Project[] = [
-  {
-    id: 1,
-    title: "PS Store Jembrana",
-    description: "Katalog digital premium untuk komunitas PlayStation di Jembrana. Dilengkapi fitur manajemen stok real-time, integrasi database, dan desain High-Performance UI.",
-    tech: ["Next.js", "MongoDB Atlas", "Tailwind CSS", "Lucide React", "Typescript"],
-    link: "https://ps5-aj83.vercel.app/",
-    github: "https://github.com/Shop333",
+   {
+    id: 1, // Sesuaikan urutannya
+    title: "Web Portfolio OS",
+    description: "Sistem operasi portofolio virtual dengan desain High-End UI/UX. Menampilkan integrasi real-time API GitHub, visualisasi data statistik bahasa pemrograman, dan optimasi SEO Meta Tags.",
+    tech: ["Next.js 16", "Tailwind CSS", "TypeScript", "Recharts", "Framer Motion", "Vercel"],
+    link: "https://my-portfolio-khaki-beta-3t8b3jy9v8.vercel.app/", // Pakai link baru kamu nanti
+    github: "https://my-portfolio-khaki-beta-3t8b3jy9v8.vercel.app/",
     featured: true,
-    image: "/projects/ps-store.webp" 
+    image: "/projects/portofolio.webp" // Sementara pakai OG Image kamu sebagai preview
   },
   {
     id: 2,
@@ -39,5 +39,15 @@ export const PROJECTS: Project[] = [
     github: "https://github.com/Shop333/new-acode-repo",
     featured: true,
     image: "/projects/acode-landing.webp" // Siapkan screenshot landing pagenya ya!
+  },
+    {
+    id: 4,
+    title: "PS Store Jembrana",
+    description: "Katalog digital premium untuk komunitas PlayStation di Jembrana. Dilengkapi fitur manajemen stok real-time, integrasi database, dan desain High-Performance UI.",
+    tech: ["Next.js", "MongoDB Atlas", "Tailwind CSS", "Lucide React", "Typescript"],
+    link: "https://ps5-aj83.vercel.app/",
+    github: "https://github.com/Shop333",
+    featured: true,
+    image: "/projects/ps-store.webp" 
   },
 ];
