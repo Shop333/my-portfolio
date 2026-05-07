@@ -116,7 +116,8 @@ export const ACHIEVEMENTS = [
     link: "https://www.coursera.org/account/accomplishments/verify/4LO93DZ53I40",
     image: "/images/achievements/accounting.webp"
   },
-  id: 14,
+    {
+    id: 14,
     title: "Cryptocurrency and Blockchain: An Introduction to Digital Currencies",
     issuer: "Wharton University of Pennsylvania",
     date: "Feb 16, 2026",
