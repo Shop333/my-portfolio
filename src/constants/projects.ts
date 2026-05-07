@@ -16,7 +16,7 @@ export const PROJECTS: Project[] = [
     description: "Sistem operasi portofolio virtual dengan desain High-End UI/UX. Menampilkan integrasi real-time API GitHub, visualisasi data statistik bahasa pemrograman, dan optimasi SEO Meta Tags.",
     tech: ["Next.js 16", "Tailwind CSS", "TypeScript", "Recharts", "Framer Motion", "Vercel"],
     link: "https://my-portfolio-khaki-beta-3t8b3jy9v8.vercel.app/", // Pakai link baru kamu nanti
-    github: "https://my-portfolio-khaki-beta-3t8b3jy9v8.vercel.app/",
+    github: "https://github.com/Shop333/my-portfolioo",
     featured: true,
     image: "/projects/portofolio.webp" // Sementara pakai OG Image kamu sebagai preview
   },
