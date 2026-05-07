@@ -125,4 +125,14 @@ export const ACHIEVEMENTS = [
     link: "https://www.coursera.org/account/accomplishments/verify/Q0AZR4W1LMYL",
     image: "/images/achievements/blockchain.webp"
   },
+    {
+    id: 15, // Sesuaikan urutan ID-nya
+    title: "Getting Started with AI on Jetson Nano",
+    issuer: "NVIDIA",
+    date: "May 7, 2026",
+    tag: "AI_Robotics",
+    link: "https://courses.nvidia.com/certificates/UxWaVM0DRRy5DFff9mB8lw", // URL Berdasarkan ID di sertifikat
+    image: "/images/achievements/nvidia-jetson.webp"
+  },
+
 ];
