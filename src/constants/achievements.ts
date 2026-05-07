@@ -97,5 +97,31 @@ export const ACHIEVEMENTS = [
     tag: "Software_Eng",
     link: "https://coursera.org/verify/specialization/GU5DI7E31OYJ",
     image: "/images/achievements/software-eng-specialization.webp"
-  }
+  },
+    {
+    id: 12,
+    title: "Google Analytics",
+    issuer: "Google Skillshop",
+    date: "02/2026-02/2027",
+    tag: "Google_Analytict",
+    link: "https://skillshop.credential.net/1b1dccb5-aa91-47fc-8776-f993ec57411a#acc.jzdkwhp4",
+    image: "/images/achievements/google123.webp"
+  },
+    {
+    id: 13,
+    title: "Accounting: Principles of Financial Accounting",
+    issuer: "IESE Business School",
+    date: "Feb 20, 2026",
+    tag: "Accounting",
+    link: "https://www.coursera.org/account/accomplishments/verify/4LO93DZ53I40",
+    image: "/images/achievements/accounting.webp"
+  },
+  id: 14,
+    title: "Cryptocurrency and Blockchain: An Introduction to Digital Currencies",
+    issuer: "Wharton University of Pennsylvania",
+    date: "Feb 16, 2026",
+    tag: "Fintech",
+    link: "https://www.coursera.org/account/accomplishments/verify/Q0AZR4W1LMYL",
+    image: "/images/achievements/blockchain.webp"
+  },
 ];
