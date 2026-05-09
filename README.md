@@ -1,4 +1,4 @@
-# 🚀 Ahlul Firdaus | Portfolio OS (Next.js 16)
+# 🚀 Portfolio OS (Next.js 16)
 
 Sistem operasi portofolio virtual dengan desain High-End UI/UX yang dibangun menggunakan teknologi web paling mutakhir untuk performa maksimal.
 
