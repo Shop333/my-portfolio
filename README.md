@@ -48,6 +48,9 @@ npm -v
 
 ```
 ### 2. Instalasi & Setup Next.js (Project Base)
+
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)
+
 Gunakan perintah ini untuk membuat struktur proyek Next.js:
 ```bash
 npx create-next-app@latest my-portfolio
