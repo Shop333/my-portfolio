@@ -68,6 +68,13 @@ npx create-next-app@latest my-portfolio
 
 ```
 ### 3. Instalasi Library Pendukung (Full Dependencies)
+
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![Lenis](https://img.shields.io/badge/Lenis-black?style=for-the-badge)
+![Lucide](https://img.shields.io/badge/Lucide_Icons-FF7E33?style=for-the-badge&logo=lucide)
+![Recharts](https://img.shields.io/badge/Recharts-22b5bf?style=for-the-badge)
+
+
 Masuk ke folder proyek dan instal semua library animasi, UI, dan grafik:
 ```bash
 cd my-portfolio
