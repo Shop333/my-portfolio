@@ -134,5 +134,14 @@ export const ACHIEVEMENTS = [
     link: "https://courses.nvidia.com/certificates/UxWaVM0DRRy5DFff9mB8lw", // URL Berdasarkan ID di sertifikat
     image: "/images/achievements/nvidia-jetson.webp"
   },
+    {
+    id: 15,
+    title: "Belajar Dasar Pemrograman JavaScript",
+    issuer: "Dicoding Indonesia",
+    date: "Feb 12, 2026",
+    tag: "Web_Dev",
+    link: "https://www.dicoding.com/certificates/KEXLQEWE0PG2",
+    image: "/images/achievements/javascript-dicoding.webp" 
+  },
 
 ];
