@@ -99,6 +99,10 @@ echo "NEXT_PUBLIC_GITHUB_TOKEN=your_token_here" > .env.local
 
 ```
 ### 5. Menjalankan Server Lokal
+
+![LocalServer](https://img.shields.io/badge/Local_Server-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+
 Nyalakan proyek untuk melihat hasil kodenya:
 ```bash
 # Jalankan mode development
