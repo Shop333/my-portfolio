@@ -143,5 +143,15 @@ export const ACHIEVEMENTS = [
     link: "https://www.dicoding.com/certificates/KEXLQEWE0PG2",
     image: "/images/achievements/javascript-dicoding.webp" 
   },
+    {
+    id: 17,
+    title: "Belajar Membuat Front-End Web untuk Pemula",
+    issuer: "Dicoding Indonesia",
+    date: "Feb 13, 2026",
+    tag: "Front_End",
+    link: "https://www.dicoding.com/certificates/0LZ0YOVLNX65",
+    image: "/images/achievements/frontend-pemula-dicoding.webp"
+  },
+
 
 ];
