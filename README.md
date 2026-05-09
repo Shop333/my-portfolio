@@ -29,6 +29,9 @@ Sistem operasi portofolio virtual dengan desain High-End UI/UX yang dibangun men
 Ikuti langkah-langkah ini secara berurutan untuk membangun proyek dari nol di lingkungan lokal (**Termux**, **Acode**, atau **VS Code**,**linux**).
 
 ### 1. Instalasi Node.js (Runtime Engine)
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
 Jalankan perintah ini untuk menginstal mesin utama:
 ```bash
 # Untuk pengguna Termux (Android)
