@@ -84,6 +84,11 @@ npm install gsap @gsap/react lenis lucide-react recharts react-github-calendar c
 
 ```
 ### 4. Konfigurasi Environment (API Keys)
+
+![GitHub](https://img.shields.io/badge/GitHub_API-181717?style=for-the-badge&logo=github&logoColor=white)
+![RestAPI](https://img.shields.io/badge/Rest_API-005571?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+
 Buat file environment agar fitur statistik GitHub berjalan:
 ```bash
 # Buat file baru
