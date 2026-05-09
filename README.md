@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Ahlul Firdaus | Portfolio OS (Next.js 16)
 
-## Getting Started
+Sistem operasi portofolio virtual dengan desain High-End UI/UX yang dibangun menggunakan teknologi web paling mutakhir untuk performa maksimal.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tech Stack & Architecture
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Proyek ini menggunakan kombinasi teknologi **Bleeding Edge** untuk menjamin kecepatan, skalabilitas, dan pengalaman pengguna yang luar biasa.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Core Framework & Logic
+* **Next.js 16.2.4**: Menggunakan **App Router** dan engine **Turbopack** untuk proses build kilat.
+* **React 19**: Memanfaatkan fitur terbaru React untuk rendering yang lebih efisien.
+* **TypeScript**: Pengetikan statis untuk menjaga integritas kode dan meminimalisir bug.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Styling & Interactive UI
+* **Tailwind CSS v4**: Generasi terbaru utilitas CSS dengan arsitektur yang lebih ringan.
+* **GSAP (@gsap/react)**: Standar industri untuk animasi elemen yang halus dan presisi.
+* **Lenis Scroll**: Engine untuk fitur *smooth scrolling* yang mewah.
+* **Lucide React**: Ikon vektor minimalis dengan dukungan *tree-shaking*.
 
-## Learn More
+### Data Visualization
+* **Recharts**: Menampilkan grafik statistik bahasa pemrograman dari GitHub secara dinamis.
+* **React GitHub Calendar**: Integrasi grafik kontribusi (green dots) langsung dari profil GitHub.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Struktur folder diatur secara modular untuk memudahkan pengembangan:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+├── app/                # Next.js App Router (Halaman Utama & Layout)
+│   ├── layout.tsx      # Root layout & Konfigurasi Font
+│   └── page.tsx        # Komposisi utama OS Dashboard
+├── src/
+│   ├── components/     # Komponen UI modular
+│   │   ├── ui/         # Komponen dasar (Button, Dialog, Card)
+│   │   └── sections/   # Bagian besar web (Dashboard, Projects, Awards)
+│   ├── constants/      # Data statis (Daftar Proyek & Sertifikat)
+│   ├── hooks/          # Custom React hooks untuk logika UI
+│   └── lib/            # Konfigurasi utilitas (GSAP, Utils, DB)
+├── public/             # Asset statis (Gambar, Ikon, WebP certificates)
+├── package.json        # Manifest dependensi dan script proyek
+└── tailwind.config.js  # Konfigurasi styling Tailwind
+￼Enter
