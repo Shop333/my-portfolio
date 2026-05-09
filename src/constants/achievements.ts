@@ -135,7 +135,7 @@ export const ACHIEVEMENTS = [
     image: "/images/achievements/nvidia-jetson.webp"
   },
     {
-    id: 15,
+    id: 16,
     title: "Belajar Dasar Pemrograman JavaScript",
     issuer: "Dicoding Indonesia",
     date: "Feb 12, 2026",
