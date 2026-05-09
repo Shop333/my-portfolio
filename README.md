@@ -115,15 +115,24 @@ http://localhost:3000
 ```
 ## 📂 Struktur Proyek (Project Structure)
 ```text
-├── app/                # App Router (Halaman Utama & Layout)
-├── src/
-│   ├── components/     # UI modular (Sections & UI Primitives)
-│   ├── constants/      # Data statis (Projects & Achievements)
-│   ├── hooks/          # Custom logic React hooks
-│   └── lib/            # Konfigurasi utilitas (GSAP, Utils)
-├── public/             # Asset statis (Gambar & Ikon)
-├── package.json        # Daftar library & script
-└── tailwind.config.js  # Konfigurasi Tailwind CSS
+
+📂 public/              # Global assets & public icons
+📂 src/                 # Main source code directory
+├── 📂 app/             # Next.js App Router (Pages & Layouts)
+├── 📂 components/      # Reusable UI Components (Atomic Design)
+├── 📂 constants/       # Static data & configuration files
+├── 📂 hooks/           # Custom React hooks logic
+└── 📂 lib/             # Third-party configurations (GSAP, Utils)
+📜 .gitignore           # Git ignore settings
+📜 eslint.config.mjs    # Linting rules configuration
+📜 next-env.d.ts        # Next.js TypeScript declarations
+📜 next.config.ts       # Next.js framework settings
+📜 package-lock.json    # Dependency lock file
+📜 package.json         # Project metadata & scripts
+📜 postcss.config.mjs   # CSS processing configuration
+📜 README.md            # Project documentation
+📜 tsconfig.json        # TypeScript compiler settings
+
 
 ```
 **Maintained by Ahlul Firdaus** 📍 Jembrana, Bali, Indonesia.
