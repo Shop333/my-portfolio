@@ -21,7 +21,12 @@ Sistem operasi portofolio virtual dengan desain High-End UI/UX yang dibangun men
 
 ## ⌨️ Panduan Instalasi & Setup (Terminal)
 
-Ikuti langkah-langkah ini secara berurutan untuk membangun proyek dari nol di lingkungan lokal (**Termux**, **AndroidIDE**, atau **VS Code**).
+![Termux](https://img.shields.io/badge/Termux-ef7102?style=for-the-badge&logo=termux&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Acode](https://img.shields.io/badge/Acode_Editor-1e1e1e?style=for-the-badge&logo=visual-studio-code&logoColor=3178C6)
+
+Ikuti langkah-langkah ini secara berurutan untuk membangun proyek dari nol di lingkungan lokal (**Termux**, **Acode**, atau **VS Code**,**linux**).
 
 ### 1. Instalasi Node.js (Runtime Engine)
 Jalankan perintah ini untuk menginstal mesin utama:
