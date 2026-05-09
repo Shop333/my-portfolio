@@ -158,5 +158,3 @@ http://localhost:3000
 ![Footer Animation](https://capsule-render.vercel.app/api?type=waving&color=38B2AC&height=120&section=footer)
 
 </div>
-
-```
