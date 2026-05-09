@@ -135,5 +135,28 @@ http://localhost:3000
 
 
 ```
-**Maintained by Ahlul Firdaus** 📍 Jembrana, Bali, Indonesia.
+---
+
+## 📈 My Coding Activity
+
+![Ahlul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Shop333&show_icons=true&theme=transparent&hide_border=true&title_color=38B2AC&icon_color=38B2AC&text_color=ffffff)
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Shop333&theme=flat&no-bg=true&no-frame=true&column=7)
+
+---
+
+<div align="center">
+
+### ⚡ Let's Connect & Build Something Great!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/firdaus-ahlul)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ahlul_fird)
+
+**Developed with ❤️ by [Ahlul Firdaus](https://github.com/Shop333)**
+📍 *Jembrana, Bali, Indonesia*
+
+![Footer Animation](https://capsule-render.vercel.app/api?type=waving&color=38B2AC&height=120&section=footer)
+
+</div>
+
 ```
