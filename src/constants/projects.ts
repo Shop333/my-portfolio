@@ -50,4 +50,23 @@ export const PROJECTS: Project[] = [
     featured: true,
     image: "/projects/ps-store.webp" 
   },
+  {
+  id: 5,
+  title: "BananaKu - Bisnis Pisang Premium",
+  description: "Landing page bisnis pisang premium full-stack dengan dark luxury aesthetic. Menampilkan produk dinamis dari API, sistem order real-time, galeri foto, dan pricing plans yang terkoneksi langsung ke database Supabase.",
+  tech: ["Next.js 16", "NestJS", "Supabase", "TypeScript", "Tailwind CSS v4", "Vercel"],
+  techIcons: {
+    "Next.js 16": "SiNextdotjs",
+    "NestJS": "SiNestjs",
+    "Supabase": "SiSupabase",
+    "TypeScript": "SiTypescript",
+    "Tailwind CSS v4": "SiTailwindcss",
+    "Vercel": "SiVercel",
+  },
+  link: "https://bananaku-frontend.vercel.app/",
+  github: "https://github.com/Shop333/bananaku-frontend",
+  featured: true,
+  image: "/projects/bananaku.webp"
+},
+
 ];
